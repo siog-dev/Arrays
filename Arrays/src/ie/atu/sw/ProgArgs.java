@@ -20,8 +20,12 @@ public class ProgArgs {
 		 * Terminal Prints: [Ljava.lang.String;@372f7a8d---->4
 		 */
 		
-		for (int i = 0; i < args.length; i+=3) {
+		for (int i = 0; i < args.length; i++) {
 			System.out.println(args[i]);
+			
+			if (args[1].equals("ATU")) {
+				System.out.println("\tWish you were here...");
+			}
 		}
 		
 	}

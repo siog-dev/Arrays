@@ -6,6 +6,7 @@ public class NumberArray {
 	//Constructor
 	public void go() {
 		int[] numbers = new int[10];
+		generate(numbers);
 		print(numbers);
 	}
 	

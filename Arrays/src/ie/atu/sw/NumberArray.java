@@ -1,5 +1,7 @@
 package ie.atu.sw;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class NumberArray {
 	//Constructor
 	public void go() {
@@ -8,6 +10,13 @@ public class NumberArray {
 	}
 	
 	private void generate(int[] nums) {
+		ThreadLocalRandom rnd = ThreadLocalRandom.current();
+		
+		for (int i = 0; i < nums.length; i++) {
+			int j = nums[i];
+			
+		}
+		}
 		
 	}
 	

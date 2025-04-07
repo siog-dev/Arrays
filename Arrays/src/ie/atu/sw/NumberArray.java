@@ -7,6 +7,10 @@ public class NumberArray {
 		print(numbers);
 	}
 	
+	private void generate(int[] nums) {
+		
+	}
+	
 	private void print(int[] nums) {
 		System.out.print("[");
 		for (int i =0; i < nums.length; i++) {

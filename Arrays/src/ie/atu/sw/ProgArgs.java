@@ -23,9 +23,13 @@ public class ProgArgs {
 		for (int i = 0; i < args.length; i++) {
 			System.out.println(args[i]);
 			
-			if (args[1].equals("ATU")) {
+			if (args[i].equals("ATU")) {
 				System.out.println("\tWish you were here...");
 			}
+		}
+		//No Indexing
+		for (String s : args) { //For Each Loop/For In Loop
+			System.out.println(s);
 		}
 		
 	}

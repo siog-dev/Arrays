@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class NumberArray {
 	//Constructor
 	public void go() {
-		int[] numbers = new int[10];
+		int[] numbers = new int[100];
 		generate(numbers);
 		print(numbers);
 	}

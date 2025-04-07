@@ -12,7 +12,8 @@ public class NumberArray {
 		
 		int total = 0;
 		for (int i = 0; i < numbers.length; i++) {
-			total = total + numbers[i];
+			//total = total + numbers[i];
+			total += numbers[i];
 		}
 		System.out.println("Total: " + total);
 	}

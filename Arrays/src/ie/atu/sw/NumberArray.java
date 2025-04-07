@@ -13,9 +13,7 @@ public class NumberArray {
 		ThreadLocalRandom rnd = ThreadLocalRandom.current();
 		
 		for (int i = 0; i < nums.length; i++) {
-			int j = nums[i];
-			
-		}
+			nums[i] = rnd.nextInt(1, 101);
 		}
 		
 	}

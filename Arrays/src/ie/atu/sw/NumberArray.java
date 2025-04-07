@@ -11,7 +11,9 @@ public class NumberArray {
 	}
 	
 	private int[] generate(int size) {
-		return null;
+		int[] numbers = new int[100];
+		generate(numbers);
+		return temp;
 	}
 	
 	private void generate(int[] nums) {

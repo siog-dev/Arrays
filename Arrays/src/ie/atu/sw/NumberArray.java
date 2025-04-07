@@ -10,13 +10,16 @@ public class NumberArray {
 		print(numbers);
 	}
 	
+	private int[] generate(int size) {
+		return null;
+	}
+	
 	private void generate(int[] nums) {
 		ThreadLocalRandom rnd = ThreadLocalRandom.current();
 		
 		for (int i = 0; i < nums.length; i++) {
 			nums[i] = rnd.nextInt(1, 101);
 		}
-		
 	}
 	
 	private void print(int[] nums) {

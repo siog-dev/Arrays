@@ -3,7 +3,7 @@ package ie.atu.sw;
 public class NumberArray {
 	//Constructor
 	public void go() {
-		int[] numbers = new int[100];
+		int[] numbers = new int[10];
 		print(numbers);
 	}
 	

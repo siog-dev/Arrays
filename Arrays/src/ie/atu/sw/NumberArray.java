@@ -7,6 +7,6 @@ public class NumberArray {
 	}
 	
 	public static void main(String[] args) {
-		
+		new NumberArray().go(); //This changes the context from "static"
 	}
 }

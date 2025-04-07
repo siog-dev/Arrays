@@ -4,6 +4,7 @@ public class NumberArray {
 	//Constructor
 	public void go() {
 		int[] numbers = new int[100];
+		print(numbers);
 	}
 	
 	private void print(int[] nums) {

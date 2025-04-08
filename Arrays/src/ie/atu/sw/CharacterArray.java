@@ -1,5 +1,7 @@
 package ie.atu.sw;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class CharacterArray {
 	
 	//Instance Variables
@@ -13,6 +15,7 @@ public class CharacterArray {
 	
 	//Create an initializer
 	private void init() {
+		ThreadLocalRandom rnd = ThreadLocalRandom.current();
 		
 	}
 	

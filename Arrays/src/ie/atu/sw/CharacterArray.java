@@ -20,6 +20,7 @@ public class CharacterArray {
 		return null;
 	}
 	
+	//Go to Run>Run Configurations>Arguments>Program Arguments type "100">Run
 	public static void main(String[] args) {
 		if (args.length > 0) {
 			int size = Integer.parseInt(args[0]);

@@ -8,6 +8,7 @@ public class CharacterArray {
 	//Create a contructor that will take in user data and create an array
 	public CharacterArray(int size) {
 		text = new char[size];
+		init();
 	}
 	
 	//Create an initializer

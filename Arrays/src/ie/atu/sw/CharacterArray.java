@@ -24,7 +24,8 @@ public class CharacterArray {
 		if (args.length > 0) {
 			int size = Integer.parseInt(args[0]);
 			CharacterArray ca = new CharacterArray(size);
-			
+			String s = ca.getCharactersAsString();
+			System.out.println(s);
 		}else {
 			System.out.println("Usage: java ie.atu.sw.CharacterArray <size>");
 		}

@@ -23,7 +23,7 @@ public class CharacterArray {
 			 * the value of rnd(random number generator) calling nextInt(33, 126)
 			 * 33 - 126 gives ASCII characters you would find on a standard (american) keyboard
 			 */
-			text[i] = (char) rnd.nextInt(33, 255); // must add cast (char)
+			text[i] = (char) rnd.nextInt(33, 65536); // must add cast (char)
 		}
 	}
 	

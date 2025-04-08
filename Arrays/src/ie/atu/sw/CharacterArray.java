@@ -6,6 +6,8 @@ public class CharacterArray {
 	
 	//Instance Variables
 	private char[] text = null;
+	private static final int MIN_OGHAM = 5760;
+	private static final int MAX_OGHAM = 5791;
 	
 	//Create a contructor that will take in user data and create an array
 	public CharacterArray(int size) {
@@ -23,7 +25,7 @@ public class CharacterArray {
 			 * the value of rnd(random number generator) calling nextInt(33, 126)
 			 * 33 - 126 gives ASCII characters you would find on a standard (american) keyboard
 			 */
-			text[i] = (char) rnd.nextInt(33, 65536); // must add cast (char)
+			text[i] = (char) rnd.nextInt(MIN_OGHAM, MAX_OGHAM + 1); // must add cast (char)
 		}
 	}
 	

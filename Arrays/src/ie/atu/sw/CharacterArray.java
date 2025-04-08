@@ -17,7 +17,7 @@ public class CharacterArray {
 	}
 	
 	public String getCharactersAsString() {
-		return null;
+		return new String(text);
 	}
 	
 	//Go to Run>Run Configurations>Arguments>Program Arguments type "100">Run

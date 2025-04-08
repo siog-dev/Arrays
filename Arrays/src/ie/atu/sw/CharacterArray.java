@@ -17,6 +17,14 @@ public class CharacterArray {
 	private void init() {
 		ThreadLocalRandom rnd = ThreadLocalRandom.current();
 		
+		for (int i = 0; i < text.length; i++) {
+			/*
+			 * The array is called text, the i(th) element starting at 0 is assigned
+			 * the value of rnd(random number generator) calling nextInt(33, 126)
+			 * 33 - 126 gives ASCII characters you would find on a standard (american) keyboard
+			 */
+			text[i] = (char) rnd.nextInt(33, 126); // must add cast (char)
+		}
 	}
 	
 	public String getCharactersAsString() {

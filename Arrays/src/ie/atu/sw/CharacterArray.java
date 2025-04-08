@@ -21,6 +21,10 @@ public class CharacterArray {
 	}
 	
 	//Go to Run>Run Configurations>Arguments>Program Arguments type "100">Run
+	/* In a terminal open the project folder and enter the command:
+	 * java ie.atu.sw.CharacterArray 100
+	 * Output: null
+	 */
 	public static void main(String[] args) {
 		if (args.length > 0) {
 			int size = Integer.parseInt(args[0]);

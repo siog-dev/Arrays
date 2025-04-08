@@ -16,6 +16,10 @@ public class CharacterArray {
 		
 	}
 	
+	public String getCharactersAsString() {
+		return null;
+	}
+	
 	public static void main(String[] args) {
 		if (args.length > 0) {
 			int size = Integer.parseInt(args[0]);

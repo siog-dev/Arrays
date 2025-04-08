@@ -10,6 +10,11 @@ public class CharacterArray {
 		text = new char[size];
 	}
 	
+	//Create an initializer
+	private void init() {
+		
+	}
+	
 	public static void main(String[] args) {
 		
 	}

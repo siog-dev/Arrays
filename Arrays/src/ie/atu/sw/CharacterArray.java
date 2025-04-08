@@ -17,6 +17,12 @@ public class CharacterArray {
 	}
 	
 	public static void main(String[] args) {
-		
+		if (args.length > 0) {
+			int size = Integer.parseInt(args[0]);
+			CharacterArray ca = new CharacterArray(size);
+			
+		}else {
+			System.out.println("Usage: java ie.atu.sw.CharacterArray <size>");
+		}
 	}
-}
+}                                                                           	
